@@ -1,0 +1,52 @@
+.box{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    margin: 100px auto;
+    animation-name: adil;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+
+}
+.box,p{
+    top: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 40px;
+    
+}
+@keyframes adil{
+    10%{background-color: tomato;
+    left: 0px;
+    right: 500px;
+    }
+    20%{background-color: red;
+        left: 0px;
+        right: 0px;
+    }
+    30%{background-color: yellow;
+        left: 500px;
+        right: 500px;
+        border-radius: 50%;
+    }
+    60%{background-color: blue;
+        left: 0px;
+        right: 500px;
+    }
+    90%{background-color: green;
+        left: 500px;
+        right: 500px;}
+    100%{background-color: mediumseagreen;
+        left: 0px;
+        right: 0px;}
+
+}

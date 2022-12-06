@@ -1,0 +1,17 @@
+.fox{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: 100% ,auto;
+    position: relative;
+    transform:translate(0,50px)
+   
+}
+.box,h3{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    position: ;
+    top: 40%;
+}

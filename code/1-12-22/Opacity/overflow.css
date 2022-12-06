@@ -1,0 +1,28 @@
+img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+img:hover{
+    opacity: 0.5;
+}
+.d1{
+    background-color: green
+    width: 2px;
+    height: 200px;
+    overflow: hidden;
+}
+
+p{
+    font-size: 100px;
+}
+.d1,p{
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    margin-top: 10px;
+    opacity: 0.5;
+
+}
+

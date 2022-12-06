@@ -1,0 +1,44 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 200px;
+}
+.circle{
+    height: 250px;
+    width: 250px;
+    border: 15px solid tomato;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    animation: circle 1.5s infinite forwards;
+    background-color: blue;
+}
+.squre{
+    width: 145px;
+    height: 145px;
+    border: 5px solid black;
+    animation: squre 1.5s infinite backwards;
+    background-color: white;
+}
+@keyframes circle{
+    0%{transform: rotate(180deg);}
+    25%{border-color: red;transform: scale(1);}
+    50%{border-color: green;transform: scale(1.1);}
+    75%{border-color: yellow;transform: scale(1.2);}
+    100%{border-color: violet;transform: rotate(360deg);}
+}
+@keyframes squre{
+    0%{transform: rotate(180deg);}
+    25%{border-color: red;transform: scale(1);}
+    50%{border-color: green;transform: scale(1.1);}
+    75%{border-color: yellow;transform: scale(1.2);}
+    100%{border-color: violet;transform: rotate(360deg);}
+}
+.squre,h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: crimson;
+}

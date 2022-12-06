@@ -1,0 +1,15 @@
+h1{
+    text-align:start;
+    color: red;
+}
+span{
+    text-align: center;
+    display: block;
+}
+ul,li{
+    color: blue;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,18 @@
+.flexbox{
+    background-color: blue;
+    font-size: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap row;
+    /* flex-flow: wrap column; */
+    justify-content:;
+
+
+}
+.flexbox > div{
+    background-color: grey;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+
+}

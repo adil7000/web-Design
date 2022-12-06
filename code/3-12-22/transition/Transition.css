@@ -1,0 +1,29 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: tomato;
+    margin: 100px auto;
+    transition-property: width height;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: cubic-bezier(.2,1.49,.83,.67);
+}
+.box:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green;
+    transition: rotate(360deg);
+    box-shadow: 5px 5px 5px;
+}
+.box,p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 40%;
+    text-shadow: -5px 5px 5px;
+    text-shadow: 5px -5px 5px;
+    text-shadow: 5px 5px -5px;
+}

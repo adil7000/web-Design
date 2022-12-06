@@ -1,0 +1,34 @@
+p{
+    color: yellow;
+    border: 15px solid;
+    border-radius: 4px;
+    background-color:blue;
+    text-align: center;
+    text-decoration: black;
+    
+}
+.h2{
+    
+ border:15px solid;
+ color: red;
+ width: 500px;
+ height: 500px;
+ border-radius: 10px;
+ background-image: url(image/2356.jpeg);
+ background-size: 100%;
+}
+.h5{
+    border:15px solid;
+    color: yellow;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-image: url(image/2356.jpeg);
+    background-size: 100px;
+    
+
+
+}
+
+ 
+

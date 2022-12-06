@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    border: 2px solid black ;
+    background-color: tomato;
+}
+a:hover{
+    border: 2px solid red;
+    background-color: yellow;
+}
+a:active{
+    border: 2px solid rgb(1, 232, 105);
+    background-color: white;
+}
+a:visited{
+    border: 2px solid chartreuse;
+    background-color: black;
+}

@@ -1,0 +1,13 @@
+table,td,th{
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{
+    color: darkorange;
+}
+td{
+    color: yellowgreen;
+}
