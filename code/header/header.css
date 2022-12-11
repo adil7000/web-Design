@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #eee;
+   
+}
+img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+header{
+    width: 100%;
+    background-color: yellowgreen;
+    color: black;
+    display: flex;
+    box-shadow: 5px 5px 5px;
+}
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+/* .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.nav ul{
+    list-style: none;
+}
+nav ul ,li{
+    background-color: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 16px;
+    text-transform: bold;
+
+}
+nav ul li,a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-left: left;
+}
+.nav ul li:hover{
+    background-color: crimson;
+    transition: all ease-in 0.5s;
+}
+.nav ul ul{
+    display: none;
+}
+.nav ul li:hover>ul{
+  display: inline;
+}
+/* heade end */
+
+/* footer start */
+footer{
+    box-shadow: 5px 5px 5px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color:crimson;
+    color: white;
+}
+.name0{
+    box-shadow: 5px -5px 5px;
+}
+.name{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: black;
+    background-color: cornflowerblue;
+    font-family: 'PT Serif', serif;
+
+}
+.name:hover{
+    color: red;
+    background-color: black;
+}
+.text p{
+    width: 100% fit-content;
+    text-align: center;
+    margin: o auto;
+    position: relative;
+    top: -15px;
+    text-transform: capitalize;
+    word-wrap: wrap;
+    word-spacing: 1px;
+    border: 2px solid yellowgreen;
+    background-color: #262626;
+    color: aqua;
+    word-spacing: 1.5px;
+}
+.icon i{
+    height: 10px;
+    font-size: 30px;
+    top: -25px;
+    position: relative;
+    padding: 10px;
+}
+.a1 i:hover{
+    color: aqua;
+}
+.a2 i:hover{
+    color: tomato;
+}
+.a3 i:hover{
+    color: blue;
+}
+.a4 i:hover{
+    color: red;
+}
+.a5 i:hover{
+    color: black; 
+}
+.a6 i:hover{
+    color: yellowgreen;
+}
+.copy{
+    width: 100%;
+    height: 30px;
+    background-color: yellowgreen;
+    font-size: 25px;
+}
+
+
+
+
